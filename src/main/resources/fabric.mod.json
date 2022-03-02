@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "clanmod",
+  "version": "${version}",
+
+  "name": "Clan Mod",
+  "description": "This mod was made specifically for my friends' SMP server. Server-side mod only!",
+  "authors": [
+    "Ether0p12348"
+  ],
+  "contact": {
+    "homepage": "https://www.raincrown.com"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ethanrobins.clanmod.ClanMod"
+    ]
+  },
+  "mixins": [
+    "clanmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

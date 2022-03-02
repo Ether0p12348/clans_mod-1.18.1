@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ethanrobins.clanmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ClanMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
